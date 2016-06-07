@@ -1,0 +1,3 @@
+graph = polygon.gml
+agent: start = 0, goal = 5
+agent: start = 5, goal = 0

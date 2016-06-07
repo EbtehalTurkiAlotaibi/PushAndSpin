@@ -1,0 +1,8 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/RandomTWCLTest/TestingTWCL_N15_BL_4_F_8.gml
+agent: start = 7, goal = 3
+agent: start = 1, goal = 2
+agent: start = 12, goal = 10
+agent: start = 11, goal = 4
+agent: start = 9, goal = 9
+agent: start = 3, goal = 1
+agent: start = 5, goal = 8

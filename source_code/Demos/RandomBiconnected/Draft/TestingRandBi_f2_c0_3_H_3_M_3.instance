@@ -1,0 +1,6 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/RandomBiconnected/TestingRandBi_f2_c0_3_H_3_M_3.gml
+agent: start = 0, goal = 5
+agent: start = 1, goal = 3
+agent: start = 2, goal = 6
+agent: start = 3, goal = 4
+agent: start = 4, goal = 2

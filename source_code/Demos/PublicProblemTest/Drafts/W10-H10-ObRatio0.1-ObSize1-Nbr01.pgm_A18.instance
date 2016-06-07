@@ -1,0 +1,19 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/PublicProblemTest/W10-H10-ObRatio0.1-ObSize1-Nbr01.pgm_A18.gml
+agent: start = 6, goal = 15
+agent: start = 7, goal = 78
+agent: start = 72, goal = 39
+agent: start = 12, goal = 69
+agent: start = 2, goal = 77
+agent: start = 8, goal = 7
+agent: start = 76, goal = 86
+agent: start = 71, goal = 38
+agent: start = 82, goal = 48
+agent: start = 46, goal = 53
+agent: start = 32, goal = 58
+agent: start = 18, goal = 42
+agent: start = 5, goal = 29
+agent: start = 33, goal = 17
+agent: start = 28, goal = 40
+agent: start = 14, goal = 47
+agent: start = 83, goal = 28
+agent: start = 77, goal = 31

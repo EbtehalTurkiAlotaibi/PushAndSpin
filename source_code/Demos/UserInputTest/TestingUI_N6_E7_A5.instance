@@ -1,0 +1,6 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/UserInputTest/TestingUI_N6_E7_A5.gml
+agent: start = 0, goal = 1
+agent: start = 1, goal = 0
+agent: start = 2, goal = 2
+agent: start = 3, goal = 4
+agent: start = 4, goal = 3

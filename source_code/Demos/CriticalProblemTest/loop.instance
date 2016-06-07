@@ -1,0 +1,8 @@
+graph = loop.gml
+agent: start = 0, goal = 2
+agent: start = 3, goal = 4
+agent: start = 5, goal = 7
+agent: start = 6, goal = 6
+agent: start = 7, goal = 5
+agent: start = 4, goal = 3
+agent: start = 2, goal = 0

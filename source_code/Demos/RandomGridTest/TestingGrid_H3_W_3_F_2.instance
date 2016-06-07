@@ -1,0 +1,8 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/RandomGridTest/TestingGrid_H3_W_3_F_2.gml
+agent: start = 1, goal = 7
+agent: start = 5, goal = 0
+agent: start = 3, goal = 8
+agent: start = 2, goal = 2
+agent: start = 8, goal = 6
+agent: start = 4, goal = 5
+agent: start = 7, goal = 1

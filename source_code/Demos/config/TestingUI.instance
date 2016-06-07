@@ -1,0 +1,3 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/config/TestingUI.gml
+agent: start = 1, goal = 2
+agent: start = 2, goal = 1

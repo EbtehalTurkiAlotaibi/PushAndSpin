@@ -1,0 +1,8 @@
+graph = corners.gml
+agent: start = 11, goal = 0
+agent: start = 4, goal = 7
+agent: start = 0, goal = 11
+agent: start = 7, goal = 4
+agent: start = 5, goal = 5
+agent: start = 8, goal = 3
+agent: start = 9, goal = 8

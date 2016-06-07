@@ -1,0 +1,28 @@
+PushAndSpin: An open-source library for polynomial-time, parallel-to-sequential multi-robot
+path planning.
+Copyright (c) 2016, Ebtehal Turki Saho Alotaibi
+
+Contact Information:
+- e.t.otaibi AT gmail DOT com
+- e.t.otaibi AT ccis DOT imamu DOT edu DOT sa 
+
+See LICENSE file for open source license agreement.
+
+------------
+Dependencies
+------------
+The following dependencies are necessary to build PushAndSpin:
+Boost.Graph (v1.49 or greater)
+Qt (v3.0.1 or greater)
+
+-----------
+Compilation
+-----------
+Once the dependencies are installed, PushAndSpin can be compiled in the typical Qt manner 
+
+
+-----
+Usage
+-----
+The PushAndSpin is attached with evaluation environment, the GUI will guid you to use PushAndSpin
+

@@ -1,0 +1,6 @@
+graph = string.gml
+agent: start = 8, goal = 0
+agent: start = 0, goal = 9
+agent: start = 9, goal = 1
+agent: start = 1, goal = 10
+agent: start = 10, goal = 8

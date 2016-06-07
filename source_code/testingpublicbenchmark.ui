@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestingPublicBenchmark</class>
+ <widget class="QDialog" name="TestingPublicBenchmark">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>450</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Choose the map:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Agent range: (               -                 )</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>51</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>120</y>
+     <width>51</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Step Size: </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>51</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_001.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_002.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_003.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_004.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_005.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_006.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_007.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8room_008.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_000.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_001.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_002.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_004.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_005.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16room_006.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_001.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_004.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_005.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_006.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_008.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32room_009.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>64room_000.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>64room_003.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>64room_0005.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>64room_008.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>64room_009.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AnisHouseMap.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0011SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0013SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0018SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0044SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0201SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0301SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0307SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0308SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0405SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0413SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0510SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0516SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR0603SR.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BlastFurnace.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DarkContinent.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>den500d.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>frostsabre.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>gardenofwar.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>gnollwood.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>JungleSiege.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-1-1.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-1-6.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-1-7.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-1-8.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-2-0.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-2-1.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-2-4.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-2-6.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-2-7.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-4-4.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-4-8.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-8-0.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-8-2.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-8-3.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-8-8.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-16-4.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-16-8.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-16-9.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-32-0.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-32-3.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-32-5.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-32-6.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>maze512-32-9.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>plunderisle.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Predators.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SpringThaw.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>TheFrozenSea.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>WatersEdge.pgm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>W50-H50-ObRatio0.3-ObSize3-Nbr01.pgm</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>260</y>
+     <width>341</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>The experiments are:</string>
+   </property>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>TestingPublicBenchmark</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>TestingPublicBenchmark</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

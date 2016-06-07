@@ -1,0 +1,11 @@
+graph = cycle_8.gml
+agent: start = 15, goal = 2
+agent: start = 2, goal = 15
+agent: start = 13, goal = 9
+agent: start = 4, goal = 8
+agent: start = 16, goal = 5
+agent: start = 1, goal = 12
+agent: start = 3, goal = 3
+agent: start = 0, goal = 0
+agent: start = 10, goal = 10
+agent: start = 11, goal = 11

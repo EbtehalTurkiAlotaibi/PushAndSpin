@@ -1,0 +1,5 @@
+graph = TWCL.gml
+agent: start = 1, goal = 2
+agent: start = 2, goal = 6
+agent: start = 5, goal = 5 
+agent: start = 8, goal = 9

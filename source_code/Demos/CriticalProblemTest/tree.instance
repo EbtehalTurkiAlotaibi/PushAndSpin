@@ -1,0 +1,4 @@
+graph = tree.gml
+agent: start = 1, goal = 6
+agent: start = 4, goal = 1
+agent: start = 6, goal = 4

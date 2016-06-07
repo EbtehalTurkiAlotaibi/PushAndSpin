@@ -1,0 +1,12 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/PublicProblemTest/AR0307SR.gml
+agent: start = 33, goal = 5
+agent: start = 7, goal = 21
+agent: start = 40, goal = 35
+agent: start = 28, goal = 1
+agent: start = 18, goal = 43
+agent: start = 19, goal = 17
+agent: start = 16, goal = 39
+agent: start = 43, goal = 2
+agent: start = 13, goal = 26
+agent: start = 35, goal = 23
+agent: start = 10, goal = 6

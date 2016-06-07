@@ -1,0 +1,11 @@
+graph =/home/ubuntu/Alhamdulellah/Demos/config/TestingTWCL10.gml
+agent: start = 10, goal = 8
+agent: start = 19, goal = 14
+agent: start = 4, goal = 7
+agent: start = 17, goal = 10
+agent: start = 8, goal = 18
+agent: start = 6, goal = 3
+agent: start = 15, goal = 20
+agent: start = 2, goal = 1
+agent: start = 5, goal = 12
+agent: start = 12, goal = 16

@@ -1,0 +1,5 @@
+graph = tunnel.gml
+agent: start = 0, goal = 3
+agent: start = 1, goal = 2
+agent: start = 2, goal = 1
+agent: start = 4, goal = 0
